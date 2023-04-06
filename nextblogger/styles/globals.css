@@ -1,0 +1,87 @@
+.ql-syntax {
+  background-color: gainsboro;
+  padding: 1rem 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 0.5rem;
+}
+
+.input-box:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.input-box-comment {
+  border: none;
+  border-bottom: solid 0.1rem;
+  border-radius: 0rem;
+  height: 2rem;
+  outline: none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.login-form {
+  max-width: 50vw;
+  height: fit-content;
+  margin: 5rem auto;
+}
+
+.btn-link{
+  color: rgb(57, 57, 226);
+  cursor: pointer;
+}
+
+.ql-size-small{
+  font-size: small;
+}
+
+.ql-size-large{
+  font-size: x-large;
+}
+
+.ql-size-huge{
+  font-size: xx-large;
+}
+
+.ql-indent-1{
+  margin-left: 2rem;
+}
+.ql-indent-2{
+  margin-left: 4rem;
+}
+
+.ql-indent-3{
+  margin-left: 6rem;
+}
+
+.ql-indent-4{
+  margin-left: 8rem;
+}
+
+.ql-indent-5{
+  margin-left: 10rem;
+}
+
+.ql-indent-6{
+  margin-left: 12rem;
+}
+
+.ql-indent-7{
+  margin-left: 14rem;
+}
+
+.ql-indent-8{
+  margin-left: 16rem;
+}
+
+.ql-align-right{
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .login-form {
+    max-width: 70vw;
+  }
+}
